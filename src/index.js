@@ -1,9 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
 import './index.css';
+import Calculator from './main/Calculator';
+
 
 ReactDOM.render(
-  <App />,
-  document.getElementById('root')
+  <div>
+  <h1>Calculadora</h1>
+  <Calculator />
+  </div>
+  ,  document.getElementById('root')
 );
+ 
